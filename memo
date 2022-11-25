@@ -1,0 +1,9 @@
+〇Gitブランチ作成&変更のマージ
+　ブランチを作成して移動する：git chechout -b [ブランチ名]
+　mainに変更をマージする手順
+　　①変更したブランチでコマンド実行
+      　git add -A
+        git commit -m '一言コメント'
+        git chechout main
+    ②mainブランチにてコマンド実行
+　　　　git merge [ブランチ名]
